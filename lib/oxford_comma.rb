@@ -3,7 +3,7 @@ def oxford_comma(array)
   if !array.last 
     new_string = array.join(", ")
   else 
-    new_string << ", and #{array.last}
+    new_string << ", and #{array.last}"
   end
   p new_string
 end
