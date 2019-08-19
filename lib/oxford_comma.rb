@@ -5,7 +5,7 @@ def oxford_comma(array)
   if counter < array.length
     new_string << "#{fruit}, "
     counter += 1
-  else 
+  elsif counter == array.length
     new_string << "and #{array.last}."
   end
   }
