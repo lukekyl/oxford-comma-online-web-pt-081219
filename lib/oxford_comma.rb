@@ -1,11 +1,11 @@
 def oxford_comma(array)
-  counter = 0
+
   new_string = ""
   array.each { |fruit|
-  if counter < array.length
+  if !array.last
     new_string << "#{fruit}, "
-    counter += 1
-  elsif counter == array.length
+    
+  else
     new_string << "and #{fruit}."
   end
   }
