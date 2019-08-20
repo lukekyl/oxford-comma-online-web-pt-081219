@@ -2,7 +2,7 @@ def oxford_comma(array)
 
   new_string = ""
   array.each { |fruit|
-  if !array.last
+  if fruit != array.last
     new_string << "#{fruit}, "
     
   else
